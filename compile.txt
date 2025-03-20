@@ -1,0 +1,2 @@
+#chmod +x compile.sh
+gcc -Wall  main.c game.c listener.c talker.c conection.c maps.c processingfile.c life.c autogame.c -o main

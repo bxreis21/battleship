@@ -1,0 +1,52 @@
+# ARQUIVO BASE PARA MONTAR TABULEIRO.
+#
+# ATENÇÃO PARA AS REGRAS DE USO.
+#
+# FORMATO ACEITO: "TIPO_DE_ILHA:POSICAO:DIRECAO".
+#
+# TIPO DE ILHA (MAX: 2 Caracteres): 
+# Z em Maiuculo, Segundo Caracter em Minusculo.
+#
+# POSICAO (MAX: 3 Caracteres)
+# É a posição do primeiro quadrado superior a esquerda do formato da ilha
+# na tabela de exemplo,o resto será montado a partir dele!
+#
+# DIRECAO (MAX: 1 Caracter): 
+# H (HORIZONTAL), V (VERTICAL).
+#
+# EXEMPLO DE USO:
+#
+# Z.:A0:H
+# Z.:A1:V
+# Z.:A2:H
+# Z.:A3:H
+# Zi:B10:H
+# Zi:B20:V
+# ZI:B2:H
+# ZI:Z3:H
+# Zp:C0:V
+# Zq:D0:H
+# Zq:D20:V
+# Zt:G5:H
+# Zt:G15:V
+# Zt:G20:V
+#
+#-----------------INSIRA SUA CONFIGURACAO ABAIXO----------------------
+#---------------NÃO FAÇA NENHUMA EDIÇÃO NO ARQUIVO---------------------
+#---------------------EXCETO OS CAMPOS ABAIXO---------------------------
+Z.:A0:V
+Z.:A1:V
+Z.:A2:V
+Z.:A3:V
+Zi:A15:H
+Zi:Y16:V
+ZI:A8:V
+ZI:G25:V
+Zp:A25:V
+Zq:F2:V
+Zq:B5:V
+Zt:L2:H
+Zt:K22:V
+Zt:X20:V
+#---------------NÃO FAÇA NENHUMA EDIÇÃO NO ARQUIVO---------------------
+#---------------------EXCETO OS CAMPOS ACIMA---------------------------
